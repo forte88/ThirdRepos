@@ -37,8 +37,8 @@
             this.radGeneral = new System.Windows.Forms.RadioButton();
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
-            this.cmdCalculate = new System.Windows.Forms.Button();
             this.rbBlackStall = new System.Windows.Forms.RadioButton();
+            this.cmdCalculate = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
@@ -131,16 +131,6 @@
             this.grpSection.TabStop = false;
             this.grpSection.Text = "Section";
             // 
-            // cmdCalculate
-            // 
-            this.cmdCalculate.Location = new System.Drawing.Point(294, 268);
-            this.cmdCalculate.Name = "cmdCalculate";
-            this.cmdCalculate.Size = new System.Drawing.Size(108, 35);
-            this.cmdCalculate.TabIndex = 10;
-            this.cmdCalculate.Text = "Calculate";
-            this.cmdCalculate.UseVisualStyleBackColor = true;
-            this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
-            // 
             // rbBlackStall
             // 
             this.rbBlackStall.AutoSize = true;
@@ -151,6 +141,16 @@
             this.rbBlackStall.TabStop = true;
             this.rbBlackStall.Text = "Black Stall";
             this.rbBlackStall.UseVisualStyleBackColor = true;
+            // 
+            // cmdCalculate
+            // 
+            this.cmdCalculate.Location = new System.Drawing.Point(349, 85);
+            this.cmdCalculate.Name = "cmdCalculate";
+            this.cmdCalculate.Size = new System.Drawing.Size(108, 35);
+            this.cmdCalculate.TabIndex = 10;
+            this.cmdCalculate.Text = "Calculate";
+            this.cmdCalculate.UseVisualStyleBackColor = true;
+            this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
             // 
             // checkBox1
             // 
